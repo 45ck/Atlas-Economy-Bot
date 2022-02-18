@@ -1,0 +1,35 @@
+secerity:
+  token: "OTQxNTkwNjM5ODE5MjUyNzMy.YgYKng.8_zd_vDxQz2yBmBct17KqvjPRsU"      # the bot token, make sure there are quotation marks sudden the token
+  id: 0       # the client id of the bot, not required.
+name: ''    # bot name just incase the code needs it for whatever reason.
+prefix: '!'   # prefix for any text commands, currently there are none, but the bot has the capacity to handle text-commands if you really want
+embededColor:   # the default color of the bot on each server, this can be overridden on each server by using the '/setting color' command.
+  r: 255
+  g: 255
+  b: 255
+guildIds:     # These are the guilds the bot will register commands in, once commands are registered in a guild they will be there forever, unless you remove them. 
+- 942241353184716582  # Each id is the guild id (the discord server id) - paste each one into here as a list of guild IDs
+- 000000000000000000  #example of the list - both of these are invalid - they will cause an error when trying to search for the server
+botIconUrl: ''    # The icon of your discord bot, this will be displayed in the top left of each message.
+economy:
+  currencyPrefixs: ""     # prefix's - The front part of the currency - for example it could be a "$" or a "€"
+  currencySuffixs: ' gold'    # suffix's - The end of a currency, for example " dollars" or " euros" or " gold"
+errors:
+  errorIconUrl: https://cdn.discordapp.com/attachments/940734878327124039/940735080534511686/ErrorMessage.png   # The error icon URL which is shown when an error message comes up 
+  displayErrorsInChat: true   # If this is disabled, error messages will look like regular messages, and no special features of the message will be added (such as a error color and error icon.)
+  errorColor:   # The color of an error message
+    r: 255
+    g: 0
+    b: 0
+success:
+  successIconUrl: https://cdn.discordapp.com/attachments/940734878327124039/941658299407929414/SuccessLogo_Small.png    # The success icon URL which is shown when a successful configuration change occurs. 
+  displaySuccessInChat: true    # If this is disabled, all success messages will display as regular messages
+  successColor:     # The color of the success message
+    r: 0
+    g: 255
+    b: 0
+configurableMessages:     # Messages which can be changed from the configuration. The help message is what is displayed when doing '/help'
+  helpMessage: >-     
+    **This is where a help message should go**,
+
+     edit this in your *__config.yaml__*

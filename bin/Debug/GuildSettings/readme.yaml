@@ -1,0 +1,14 @@
+# This does not effect anything, this is just here to help you read the other guild configurations
+# This is what /settings is stored into. It is stored as YAML so that you can edit it if you really need to from config.
+
+prefix: '!'   # prefix for this server which overides the config.yaml - does not get used in slash commands - there if you need it
+colorTheme:   #/settings color  - changes the theme of embeded messages
+  r: 255
+  g: 255
+  b: 255
+guildId: 942241353184706582     # the id of the guild this guild settings configuration is associated with
+managerRoles: []      # roles for management, these are stored as role ids
+ranks: []   # ranks stored as custom rank objects, which contain a role id
+minimumRole: []   # minimum role for being able to use /rankup. If there is none you can rankup without a minimum role.
+dailyPayoutAmount: 0      # the /daily payout rate.
+propagandaImagesUrls: []    # /propaganda image urls
