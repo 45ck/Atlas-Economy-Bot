@@ -1,4 +1,11 @@
 # Atlas-Economy-Bot
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner.dark.png" />
+  <source media="(prefers-color-scheme: light)" srcset="assets/banner.light.png" />
+  <img src="assets/banner.light.png" alt="Atlas-Economy-Bot banner" width="100%" />
+</picture>
+
 The Atlas Economy Bot is a discord bot which aims to be the first mutli-discord-server bot to have 1 single shared economy. This means that the bot does not have individual economies for each discord server, but instead has 1 shared economy, where if you where to say for example earn 100 currency on your discord server, you could use that currency on your friends discord server, if that had the bot on their server. This is extremely useful where similar or single communities have multiple discord servers but want to share something that connects them all.
 
 ## Features

@@ -1,0 +1,24 @@
+{
+  "repo_name": "Atlas-Economy-Bot",
+  "tagline": "One economy across all your Discord servers",
+  "one_sentence_purpose": "A C# Discord bot that provides a single shared cross-server economy with currency, ranks, trading, and moderation tools",
+  "target_users": "Discord server administrators who want a unified economy system spanning multiple communities",
+  "keywords": ["discord", "economy", "bot", "cross-server"],
+  "visual_metaphors": ["gold coins connected by network lines spanning multiple server icons", "a globe (atlas) with currency symbols orbiting it", "interconnected hexagonal nodes representing linked servers with a central treasury"],
+  "avoid": ["no mascots", "no photorealism", "no Discord logo usage"],
+  "style_adjectives": ["authoritative", "connected", "golden", "digital", "bold"],
+  "palette_hint": {
+    "bg_light": "#ffffff",
+    "bg_dark": "#0d1117",
+    "primary": "#eab308",
+    "accent": "#5865f2",
+    "ink": "#c9d1d9"
+  },
+  "assets_needed": [
+    {"path": "assets/banner.light.png", "type": "readme_banner", "desc": "Wide banner on white background"},
+    {"path": "assets/banner.dark.png", "type": "readme_banner", "desc": "Wide banner on dark background"},
+    {"path": "assets/logo.light.png", "type": "square_logo", "desc": "Square logo on white background"},
+    {"path": "assets/logo.dark.png", "type": "square_logo", "desc": "Square logo on dark background"},
+    {"path": "assets/social-preview.png", "type": "github_social_preview", "desc": "GitHub social preview card"}
+  ]
+}
